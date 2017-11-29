@@ -5,6 +5,3 @@ C:\Users\tripl\Desktop\SENG 210\Team-Cyprus-master\Projects\Database\Database\Da
 C:\Users\tripl\Desktop\SENG 210\Team-Cyprus-master\Projects\Database\Database\Database\bin\Debug\Database.pdb
 C:\Users\tripl\Desktop\SENG 210\Team-Cyprus-master\Projects\Database\Database\Database\obj\Debug\Database.exe
 C:\Users\tripl\Desktop\SENG 210\Team-Cyprus-master\Projects\Database\Database\Database\obj\Debug\Database.pdb
-C:\Users\jansenj1\Desktop\SENG 210\Team-Cyprus-master\Projects\Database\Database\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
-C:\Users\jansenj1\Desktop\SENG 210\Team-Cyprus-master\Projects\Database\Database\Database\obj\Debug\Database.exe
-C:\Users\jansenj1\Desktop\SENG 210\Team-Cyprus-master\Projects\Database\Database\Database\obj\Debug\Database.pdb
