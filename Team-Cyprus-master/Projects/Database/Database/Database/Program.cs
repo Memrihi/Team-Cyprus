@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text.RegularExpressions;
+using System.Globalization;
 
 namespace Database
 {
@@ -215,9 +216,9 @@ namespace Database
                 {
                     Console.WriteLine("Found " + output.Count + " student(s) with matching criteria\n[First name, Last name, Student ID]");
 
-                    foreach (var item in output)
+                    foreach (var items in output)
                     {
-                        Console.WriteLine(item.FirstName + " " + item.LastName + " | " + GetID(item.ID));
+                        Console.WriteLine(items.FirstName + " " + items.LastName + " | " + GetID(items.ID));
                     }
                 }
                 else
@@ -314,10 +315,10 @@ namespace Database
 
             while (input.Key != ConsoleKey.Enter)
             {
-                var currentInput = builder.ToString();
+                string currentInput = builder.ToString();
                 if (input.Key == ConsoleKey.Tab)
                 {
-                    var match = new Dictionary<string, student>.(item => item != currentInput && item.StartsWith(currentInput, true, CultureInfo.InvariantCulture));
+                    var match = students.FindAll(students.Contains<student> && currentInput.(currentInput, true, CultureInfo.InvariantCulture));
                     if (string.IsNullOrEmpty(match))
                     {
                         input = Console.ReadKey(intercept: true);
